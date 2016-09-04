@@ -1,0 +1,24 @@
+{
+  "name": "ambot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kat3samsin/ambot.git"
+  },
+  "author": "kat3samsin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kat3samsin/ambot/issues"
+  },
+  "homepage": "https://github.com/kat3samsin/ambot#readme",
+  "dependencies": {
+    "botkit": "^0.2.2",
+    "witbot": "^2.1.0"
+  }
+}
