@@ -19,7 +19,8 @@ prompt.get(schema, function (err, result) {
 	var email = result.email;
 	var password = result.password
 
-	var Ambot = require(__dirname + '/ambot.js');
-	new Ambot(slackToken, witToken).start(email, password);
+	var Ambot = require('./ambot.js')(slackToken, witToken);
+	console.log(JSON.stringify(Ambot));
+	Ambot.start(email, password);
 });
 

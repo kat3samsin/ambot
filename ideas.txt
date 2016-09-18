@@ -1,0 +1,47 @@
+ambot ideas
+
+:::bots:::
+--ns--
+- give access to an account
+- find employee by name or email address
+- search and file pto, setup auto reply in outlook
+- pull up itr report
+- expense tracker
+- test data creator
+- notifier of something? what?
+
+--slack--
+reminder
+lunch suggestions
+daily standup
+dictionary
+translator
+calculator
+polls
+
+
+--others--
+suiteachievers
+crucible code review
+v1 track hours
+v1 test board
+
+:::design:::
+/ every command has a adapter for interpreting responses and formatter
+x replace http with request
+x - add oauth ~ role specific has lots of restrictions and need to manually update the roles
+
+:::todo:::
+- make ambot more pluggable : how to create plugins to detect other commands >> architecture
+- find user by name or email address with convo
+
+
+::quickstart::
+install node and npm
+register with slack and create bot
+login to https://wit.ai/ and go to https://wit.ai/docs/quickstart
+cd to installation directory
+git clone https://github.com/kat3samsin/ambot
+install botkit and witbot
+
+http://readwrite.com/2013/10/02/github-for-beginners-part-2/
