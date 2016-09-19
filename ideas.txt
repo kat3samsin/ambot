@@ -35,13 +35,18 @@ x - add oauth ~ role specific has lots of restrictions and need to manually upda
 - make ambot more pluggable : how to create plugins to detect other commands >> architecture
 - find user by name or email address with convo
 
+::required accounts::
+slack 
+github 
+wit.ai > login to https://wit.ai/
 
 ::quickstart::
 install node and npm
-register with slack and create bot
-login to https://wit.ai/ and go to https://wit.ai/docs/quickstart
+create bot with slack
+teach wit.ai > https://wit.ai/docs/quickstart
+
 cd to installation directory
 git clone https://github.com/kat3samsin/ambot
-install botkit and witbot
+install botkit, prompt, request and witbot
 
 http://readwrite.com/2013/10/02/github-for-beginners-part-2/
