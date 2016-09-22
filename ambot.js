@@ -145,6 +145,7 @@ Ambot.prototype.whoIs = function(controller, bot, message, outcome) {
 		function getEmail(name) {
 			var matched = name.match(/<mailto:.*.com\|(.*.com)>/);
 			if (matched && matched.length > 1) {
+				console.log('matched', JSON.stringify(matched));
 				return matched[1];
 			}
 		}
