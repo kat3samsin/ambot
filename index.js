@@ -5,19 +5,19 @@ var prompt = require('prompt');
 
 var schema = {
 	properties: {
-	  email: {
-		required: true
-	  },
-	  password: {
-		hidden: true
-	  }
+		email: {
+			required: true
+		},
+		password: {
+			hidden: true
+		}
 	}
 };
 
 prompt.start();
 prompt.get(schema, function (err, result) {
 	var email = result.email;
-	var password = result.password
+	var password = result.password;
 
 	var Ambot = require('./ambot.js')(slackToken, witToken);
 	console.log(JSON.stringify(Ambot));

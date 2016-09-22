@@ -27,26 +27,55 @@ v1 track hours
 v1 test board
 
 :::design:::
-/ every command has a adapter for interpreting responses and formatter
-x replace http with request
-x - add oauth ~ role specific has lots of restrictions and need to manually update the roles
+- every command has a adapter for interpreting responses and formatter
+/ replace http with request
+x add oauth ~ role specific has lots of restrictions and need to manually update the roles
 
-:::todo:::
-- make ambot more pluggable : how to create plugins to detect other commands >> architecture
-- find user by name or email address with convo
-
-::required accounts::
-slack 
-github 
+:::required accounts:::
+slack
+github (optional)
 wit.ai > login to https://wit.ai/
 
-::quickstart::
+:::quickstart:::
 install node and npm
 create bot with slack
 teach wit.ai > https://wit.ai/docs/quickstart
 
-cd to installation directory
+--without git--
+cd <installation directory>
+https://github.com/kat3samsin/ambot/archive/master.zip > extract to installation dir > rename to ambot
+mkdir node_modules
+cd node_modules
+npm install botkit
+npm install prompt
+npm install request
+npm install node-wit
+npm install witbot
+copy https://github.com/kat3samsin/witbot/blob/master/index.js to ambot/node_modules/witbot/index.js
+
+--with git--
+cd <installation dir>
 git clone https://github.com/kat3samsin/ambot
-install botkit, prompt, request and witbot
+mkdir node_modules
+cd node_modules
+npm install botkit
+npm install prompt
+npm install request
+npm install node-wit
+git clone https://github.com/kat3samsin/witbot.git
+
+
 
 http://readwrite.com/2013/10/02/github-for-beginners-part-2/
+
+::Git commit::
+git status
+git add .
+git commit -m 'comment'
+git push
+
+::Git force pull to overwrite local files::
+git fetch --all
+git reset --hard origin/master
+git pull origin master
+

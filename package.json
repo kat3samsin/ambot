@@ -17,8 +17,5 @@
     "url": "https://github.com/kat3samsin/ambot/issues"
   },
   "homepage": "https://github.com/kat3samsin/ambot#readme",
-  "dependencies": {
-    "botkit": "^0.2.2",
-    "witbot": "^2.1.0"
-  }
+  "dependencies": {}
 }
