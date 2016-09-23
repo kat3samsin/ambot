@@ -3,14 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "private": "true",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/kat3samsin/ambot.git"
+    "url": "git+https://github.com/kat3samsin/ambot.git"
   },
   "author": "kat3samsin",
   "license": "MIT",
