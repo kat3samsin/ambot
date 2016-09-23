@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kat3samsin/ambot.git"
+    "url": "git//github.com/kat3samsin/ambot.git"
   },
   "author": "kat3samsin",
   "license": "MIT",
