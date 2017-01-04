@@ -1,3 +1,3 @@
-# ambot
+# Ambot: A NetSuite Bot
 
-Hello world!
+Another Mind-Boggling Organizational Tool
